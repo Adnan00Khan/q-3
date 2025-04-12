@@ -25,7 +25,7 @@ def login_page():
         if username in stored_data:
             if verify_passkey(password, stored_data[username]["password"]):
                 st.session_state.username = username
-                st.success("✅ "Logged in successfully")
+                st.success("✅ Logged in successfully")
                 st.session_state.page = "dashboard"
             else:
                 st.error("❌ Incorrect password.")
