@@ -69,7 +69,7 @@ def main():
     else:
         st.warning("⚠ Please enter a paragraph to analyze.")
     
-    st.markdown("""<p style='text-align: center; font-weight: bold; color: #555;'>Created By Adnan Khan</p>""", unsafe_allow_html=True)
+    st.markdown("""<p style='text-align: center; font-weight: bold; color: #555;'>Created By Adnan Khan.</p>""", unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
