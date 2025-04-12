@@ -17,7 +17,7 @@ def reset_game():
 initialize_game()
 
 # Streamlit UI
-st.title("🎯 Number Guessing Game By Adnan Khan")
+st.title("🎯 Number Guessing Game By Adnan Khan.")
 st.markdown("<p style='color: #4CAF50; font-size: 18px;'>Can you find the hidden number? Test your guessing skills and challenge yourself! 🔢🔥</p>", unsafe_allow_html=True)
 
 st.write("Guess the secret number between 1 and 100!")
