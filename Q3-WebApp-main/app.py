@@ -3,7 +3,7 @@ import streamlit as st;
 st.set_page_config(page_title = "My webPage" , page_icon= ":tada:", layout= "wide");
 
 # Header
-st.title("Welcome to AK Quotes Collection");
+st.title("Welcome");
 st.subheader("A page full of mind blowing motivations");
 st.write("One thought can change your day—let it be an inspiring one!")
 
@@ -24,8 +24,6 @@ with st.container():
         ambition, push your limits, and remind you that greatness lies within you.
         Believe in yourself, embrace the journey, and watch how motivation transforms into
         unstoppable success! 🚀✨ """)
-        st.write("[learn more] (https://www.youtube.com/@Buggs_____________bunnyyy)")
-        st.write("[Instagram] (https://www.instagram.com/bugs____bunnyyyy__/#)")
         st.write("####")
         st.text("""Thank you for visiting the site! 🌟 May you leave with a heart 
         full of inspiration and a mind ready to conquer new heights. Keep striving,
