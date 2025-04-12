@@ -4,7 +4,7 @@ import random
 st.title("Random Quote Generator")
 
 def get_random_quote():
-    with open("quotes.txt", "r", encoding="utf-8") as file:
+    with open("quotes", "r", encoding="utf-8") as file:
         quotes = file.readlines()
     return random.choice(quotes).strip()
 
