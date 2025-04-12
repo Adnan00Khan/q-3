@@ -57,7 +57,7 @@ def main():
     
     # Show creator name in the browser
     st.markdown("---")
-    st.markdown("**Created by AK SoftTech**")
+    st.markdown("**Created by Adnan Khan**")
     
 if __name__ == "__main__":
     main()

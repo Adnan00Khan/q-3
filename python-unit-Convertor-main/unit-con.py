@@ -13,7 +13,7 @@ def convert_units(value, from_unit, to_unit):
 
 # Streamlit UI
 st.title("🔄 Professional Unit Converter")
-st.subheader("By AK SoftTech")
+st.subheader("By Adnan Khan")
 st.write("Convert between different units effortlessly!")
 
 # Dropdown categories
