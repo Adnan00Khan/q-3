@@ -26,7 +26,7 @@ def check_password_strength(password):
     return strength, score
 
 def main():
-    st.title("🔒 Password Strength Meter")
+    st.title("🔒 Password Strength Metr")
     st.markdown("💡 *'A strong password is the first step to digital security.'*")
     st.write("Enter a password to check its strength.")
     
